@@ -42,6 +42,25 @@ Backtesting was conducted on:
 The backtest results and performance metrics are discussed and interpreted
 in the corresponding project documentation.
 
+## Version 2.0 – Bachelor Thesis Extension
+
+**TrendFollowingEA_V2.0** was further developed as part of the bachelor thesis and builds on the first version created during the previous academic project. While the original signal logic remains unchanged, the Expert Advisor was extended with a technical safety, risk, execution, and monitoring framework.
+
+The main extensions in V2.0 include:
+
+- Spread Guard for controlling increased trading costs
+- Volatility Guard for blocking exceptional ATR spikes
+- Volatility regime classification for additional market context analysis
+- Pre-trade validation for terminal, symbol, tick, and data checks
+- Circuit Breaker for daily loss limits, consecutive losses, and technical execution errors
+- Exposure and margin checks before order execution
+- Execution hardening with retry logic, slippage control, and post-trade verification
+- Persistent state handling for restart and crash safety
+- Extended Trade Journal and RejectedTrades logging with reason codes
+- Preparation for a controlled demo-live trading environment
+
+This version is intended as a technically extended framework for the bachelor thesis. It should not be understood as a fully validated live trading bot for real-money trading.
+
 ## Disclaimer
 
 This code is provided for research and educational purposes only.
