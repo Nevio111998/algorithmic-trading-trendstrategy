@@ -1,4 +1,4 @@
-//|                                              TrendFollowingEA.mq5 |
+//|                                              TrendFollowingEA_V2.0.mq5 |
 //|                                             Nevio Di Palma       |
 //|                                                                  |
 //| STRATEGY OVERVIEW:                                              |
@@ -12,7 +12,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Nevio Di Palma"
 #property link      ""
-#property version   "1.13"
+#property version   "2.0"
 #property strict
 
 #include <Trade\Trade.mqh>
